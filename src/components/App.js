@@ -14,7 +14,7 @@ const App = () => {
 <p className="authText">
         {isRobot
           ? "You are now authenticated, you can proceed"
-          : "You are not authenticated"}
+          : "you are not authenticated"}
       </p>
 
      <label>
