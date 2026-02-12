@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import { useAuth } from './useContext/AuthContext'
+import { useAuth } from './AuthContext'
 
 
 const App = () => {
