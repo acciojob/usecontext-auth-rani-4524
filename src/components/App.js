@@ -11,9 +11,11 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
     <h1>Click on the checkbox to get authenticated</h1>
-       {
-        isRobot ? "You are now authenticated , you can proceed " : " you are not authenticated"
-       }
+<p className="authText">
+        {isRobot
+          ? "You are now authenticated, you can proceed"
+          : "You are not authenticated"}
+      </p>
 
      <label>
         <input
